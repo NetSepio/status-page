@@ -7,7 +7,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,     // disable Image Optimization API
+    loader: 'imgix',
+    path: '',
   },
 }
 
